@@ -7,7 +7,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
-const Index = () => (
+const index = () => (
   <div className="min-h-screen">
     <Navbar />
     <HeroSection />
@@ -20,4 +20,4 @@ const Index = () => (
   </div>
 );
 
-export default Index;
+export default index;
