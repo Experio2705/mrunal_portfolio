@@ -8,7 +8,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
-const index = () => {
+const Index = () => {
   return (
     <div className="min-h-screen">
     <Navbar />
@@ -23,4 +23,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
