@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -7,8 +8,9 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
-const index = () => (
-  <div className="min-h-screen">
+const index = () => {
+  return (
+    <div className="min-h-screen">
     <Navbar />
     <HeroSection />
     <AboutSection />
@@ -18,6 +20,7 @@ const index = () => (
     <ContactSection />
     <Footer />
   </div>
-);
+  )
+}
 
-export default index;
+export default index
